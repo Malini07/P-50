@@ -1,0 +1,44 @@
+
+
+marquee {
+    border-style: ridge;
+    background-color: #696969;
+    color: crimson;
+}
+
+.origami img{
+    border:black 5px solid;
+    border-radius: 40px;
+}
+body {
+    background-color: #F0F8FF;
+}
+.bodyimg{
+    position:relative;
+}
+.bodyimg p{
+    position: absolute;
+    top:10%;
+    left:10%;
+    color:white;
+}
+.header{
+    display:flex;
+    padding:10px;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+}
+.origami{
+    background-color: white;
+    width:310px;
+    margin:18px;
+    padding: 10px;
+    border-radius: 20px;
+}
+a:link{ color:white; } 
+a:visited{ color:white; }
